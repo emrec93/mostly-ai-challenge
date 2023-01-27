@@ -58,6 +58,7 @@ export class HomePage {
       await this.page.locator(value).first().hover();
     }
 
+    // Click to navigate to the contact page
     await this.page.getByRole("link", { name: this.locators.submenu.contactPage }).click();
   }
 }
