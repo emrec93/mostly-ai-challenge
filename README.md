@@ -43,6 +43,35 @@ npm run test
 npm run report
 ```
 
+### Other Browsers
+
+By default the project is set to run on a Chromium browser, but if you wish to run the tests on Chormium, Firefox, and Webkit then do the following.
+
+Navigate to the playwright.config.ts file in the project root and uncomment out the following under "projects" to run all tests on three browsers:
+
+```js
+    {
+      name: "chromium",
+      use: {
+        ...devices["Desktop Chrome"],
+      },
+    },
+
+    // {
+    //   name: "firefox",
+    //   use: {
+    //     ...devices["Desktop Firefox"],
+    //   },
+    // },
+
+    // {
+    //   name: "webkit",
+    //   use: {
+    //     ...devices["Desktop Safari"],
+    //   },
+    // },
+```
+
 # Scenarios covered
 
 The tests cover the following 3 scenarios:
@@ -63,6 +92,8 @@ The tests cover the following 3 scenarios:
 
 ### Step 3:
 
+Note: for this test, I've included a screenshot functionality, which captures the "SEND MESSAGE" button before/after hover to assert the color change. These will be generated under screenshots/btn-(before/after).png on your local machine but wont be included in the repo (.gitignore).
+
 1. Go to page https://mostly.ai/
 2. Click “Contact” item under the “Company” bookmark
 3. Fill following fields:
@@ -75,7 +106,8 @@ The tests cover the following 3 scenarios:
    - Country/Region
    - Description Field
 
-4. Check “Marketing offers and updates” checkbox 5. Hover over “Send Message” button, but do not click it
+4. Check “Marketing offers and updates” checkbox
+5. Hover over “Send Message” button, but do not click it
 
 ## CI/CD, Github Actions
 
