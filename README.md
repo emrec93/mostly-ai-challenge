@@ -2,11 +2,11 @@
 
 Automated tests for MOSTLY AI's website
 
-# Playwright Automated Tests
+## Playwright Automated Tests
 
 The purpose of this repo is to showcase automated tests created for MOSTLY AI's [website](https://mostly.ai/), built using Playwright with Typescript. Playwright enables reliable end-to-end testing for modern web apps.
 
-# Installation
+## Installation
 
 ### Clone the repo via HTTPS or SSH:
 
@@ -76,3 +76,7 @@ The tests cover the following 3 scenarios:
    - Description Field
 
 4. Check “Marketing offers and updates” checkbox 5. Hover over “Send Message” button, but do not click it
+
+## CI/CD, Github Actions
+
+In the project folder within .github/workflows/ you'll find a playwright.yml file that runs the tests whenever a push or a pull request is made on the main and master branches. This can be configured further, but I've left it as it is for the purpose of this challenge.
