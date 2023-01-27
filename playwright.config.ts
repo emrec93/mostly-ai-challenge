@@ -10,17 +10,14 @@ const config: PlaywrightTestConfig = {
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  workers: process.env.CI ? 1 : 1, // You can increase the number of workers to speed up test execution, recommended to leave at 1
   reporter: [["html", { open: "never" }], ["list"]],
   use: {
     actionTimeout: 0,
-    /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: "https://mostly.ai/",
     trace: "on-first-retry",
   },
 
-  /* Configure projects for major browsers */
   projects: [
     {
       name: "chromium",
@@ -29,22 +26,20 @@ const config: PlaywrightTestConfig = {
       },
     },
 
-    // {
-    //   name: 'firefox',
-    //   use: {
-    //     ...devices['Desktop Firefox'],
-    //   },
-    // },
+    {
+      name: "firefox",
+      use: {
+        ...devices["Desktop Firefox"],
+      },
+    },
 
-    // {
-    //   name: 'webkit',
-    //   use: {
-    //     ...devices['Desktop Safari'],
-    //   },
-    // },
+    {
+      name: "webkit",
+      use: {
+        ...devices["Desktop Safari"],
+      },
+    },
   ],
-
-  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   outputDir: "test-results/",
 };
 
