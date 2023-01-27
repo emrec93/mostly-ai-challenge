@@ -1,0 +1,311 @@
+{
+  "cookies": [
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1275154211.1674832091",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1682608090,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSessionUser_3082591",
+      "value": "eyJpZCI6IjIyNjdmNDZiLTkyNWEtNTk3NC1iMzIyLWMwYjc3ZjY5N2FhYiIsImNyZWF0ZWQiOjE2NzQ4MzIwOTA2MDcsImV4aXN0aW5nIjpmYWxzZX0=",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1706368090,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674833890,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjIncludedInSessionSample",
+      "value": "0",
+      "domain": "mostly.ai",
+      "path": "/",
+      "expires": 1674832210,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjSession_3082591",
+      "value": "eyJpZCI6ImE0Y2I0YWJmLWYzZjgtNDZjNS04MjhiLTY2MGJiNWJlZTAwMCIsImNyZWF0ZWQiOjE2NzQ4MzIwOTA2ODcsImluU2FtcGxlIjpmYWxzZX0=",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674833890,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjIncludedInPageviewSample",
+      "value": "1",
+      "domain": "mostly.ai",
+      "path": "/",
+      "expires": 1674832210,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "1",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674833890,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1674832090849.1225628108",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1682608094,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "borlabs-cookie",
+      "value": "%7B%22consents%22%3A%7B%22essential%22%3A%5B%22borlabs-cookie%22%2C%22google-tag-manager%22%5D%2C%22statistics%22%3A%5B%22google-analytics%22%2C%22linkedin-insight-tag%22%5D%2C%22marketing%22%3A%5B%22hubspot%22%5D%2C%22external-media%22%3A%5B%22googlemaps%22%2C%22youtube%22%5D%7D%2C%22domainPath%22%3A%22mostly.ai%2F%22%2C%22expires%22%3A%22Sat%2C%2027%20Jan%202024%2015%3A08%3A14%20GMT%22%2C%22uid%22%3A%22e4a1xenu-e5y5rtht-wwfnl0x1-fczr2bib%22%2C%22version%22%3A%221%22%7D",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1706368094,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.127262140.1674832095",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674918494,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-91398197-2",
+      "value": "1",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674832154,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.556896572.1674832095",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1709392094.568944,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ln_or",
+      "value": "eyIxODY5NDEyIjoiZCJ9",
+      "domain": "mostly.ai",
+      "path": "/",
+      "expires": 1674918494,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQKgsonfDnDUtQAAAYXzxaXytN_4lig3UWplRoXmHAD5UwPtaaX0mFzmfIr-hesOJ1es3vhNHMcQiA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1677424094.716476,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQJE9ZT_9ST_mAAAAYXzxaXyuFarF9nFMXmDagwszWXYD5VyTX-VMUODEC2eKSu2rUoSqbiekNbgKA9bxDkimA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1677424094.716508,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": ".ads.linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&f937d97a-3442-4189-8115-c6cb54ec6f97\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1706368094.877756,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST06:s=T:r=T:a=T:p=T:g=2574:u=1:x=1:i=1674832094:t=1674918494:v=2:sig=AQHWDUokOZootHvgGVjhoYIUr4Cvw_SJ\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1674918494.716564,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20230127150814ecb9cfb6-afe5-4575-853d-ba4a79ec94abAQFoXF5uHFcVKn8Ur_TxCJLuMsXW9K2V\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1706368094.877792,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "li_gc",
+      "value": "MTswOzE2NzQ4MzIwOTQ7MjswMjEPaqlYClhyWa2szEpQujcpL5CTvjzuWadMLU+MRNQ1Qw==",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1690384094.877818,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "CrXsTELZnKmDqw2NJH9ytf_UihzPfLr2hjJUEOlV71s-1674832095-0-AU3GRcpmm9HgcgEF2kllBQ+AWXyARzIJIz0T/Thj358zfWNRw4fPbTzKBdiL75YlqPc4QFr8QTF4OcPOvoyHtCI=",
+      "domain": ".hubspot.com",
+      "path": "/",
+      "expires": 1674833894.950882,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__hstc",
+      "value": "147090152.bac0ed4c8c152e9165360edb844766ca.1674832094789.1674832094789.1674832094789.1",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1690384095,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "hubspotutk",
+      "value": "bac0ed4c8c152e9165360edb844766ca",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1690384095,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssrc",
+      "value": "1",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__hssc",
+      "value": "147090152.1.1674832094789",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1674833895,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1674832995.363762,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_8NGESMV97J",
+      "value": "GS1.1.1674832094.1.1.1674832106.0.0.0",
+      "domain": ".mostly.ai",
+      "path": "/",
+      "expires": 1709392106.857098,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.youtube-nocookie.com",
+      "localStorage": [
+        {
+          "name": "yt-remote-device-id",
+          "value": "{\"data\":\"4dd1bfd9-2ed5-4313-a3d5-738a29711ee1\",\"expiration\":1706368095197,\"creation\":1674832095198}"
+        },
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1677424095210,\"creation\":1674832095210}"
+        },
+        {
+          "name": "yt.innertube::requests",
+          "value": "{\"data\":{\"2\":{\"method\":\"log_event\",\"request\":{\"context\":{\"client\":{\"hl\":\"en-GB\",\"gl\":\"GB\",\"clientName\":56,\"clientVersion\":\"1.20230111.01.00\",\"configInfo\":{\"appInstallData\":\"CN7Rz54GEMzfrgUQ5vOuBRCC3a4FELiLrgUQ6qL-EhDa6a4FEOf3rgUQvvOuBRCy9a4FENn5rgUQh92uBRDX5K4FEPuj_hI%3D\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"screenDensityFloat\":\"2\",\"connectionType\":\"CONN_CELLULAR_4G\"},\"thirdParty\":{\"embedUrl\":\"https://mostly.ai/\"}},\"events\":[{\"eventTimeMs\":1674832106841,\"finalPayload\":{\"csn\":\"MC42NjI1MTMyMTk1OTQ3MjQ4\"},\"context\":{\"lastActivityMs\":\"11919\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"3ujTY-GlJoDjxN8P--OTyA8\",\"clientCounter\":\"27557\"}},\"authState\":{\"X-Goog-Visitor-Id\":\"CgtxQVFVeGNsMk9wYyje0c-eBg%3D%3D\"},\"requestTime\":1674832106844},\"3\":{\"method\":\"log_event\",\"request\":{\"context\":{\"client\":{\"hl\":\"en-GB\",\"gl\":\"GB\",\"clientName\":56,\"clientVersion\":\"1.20230111.01.00\",\"configInfo\":{\"appInstallData\":\"CN7Rz54GEMzfrgUQ5vOuBRCC3a4FELiLrgUQ6qL-EhDa6a4FEOf3rgUQvvOuBRCy9a4FENn5rgUQh92uBRDX5K4FEPuj_hI%3D\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"screenDensityFloat\":\"2\",\"connectionType\":\"CONN_CELLULAR_4G\"},\"thirdParty\":{\"embedUrl\":\"https://mostly.ai/\"}},\"events\":[{\"eventTimeMs\":1674832106921,\"latencyActionTicked\":{\"tickName\":\"qoes\",\"clientActionNonce\":\"N618JUJVzjbFLWMg\"},\"context\":{\"lastActivityMs\":\"11998\"}},{\"eventTimeMs\":1674832106935,\"finalPayload\":{\"csn\":\"MC42NjI1MTMyMTk1OTQ3MjQ4\"},\"context\":{\"lastActivityMs\":\"12013\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"3ujTY-GlJoDjxN8P--OTyA8\",\"clientCounter\":\"27558\"}},\"authState\":{\"X-Goog-Visitor-Id\":\"CgtxQVFVeGNsMk9wYyje0c-eBg%3D%3D\"},\"requestTime\":1674832106937}},\"expiration\":1674918506939,\"creation\":1674832106939}"
+        },
+        {
+          "name": "yt-remote-connected-devices",
+          "value": "{\"data\":\"[]\",\"expiration\":1674918495201,\"creation\":1674832095201}"
+        },
+        {
+          "name": "yt.innertube::nextId",
+          "value": "{\"data\":4,\"expiration\":1674918506938,\"creation\":1674832106938}"
+        }
+      ]
+    }
+  ]
+}
