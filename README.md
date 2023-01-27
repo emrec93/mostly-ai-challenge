@@ -67,10 +67,12 @@ The tests cover the following 3 scenarios:
 2. Click “Contact” item under the “Company” bookmark
 3. Fill following fields:
 
-...a. First Name
-...b. Last Name
-...c. Your Business Email
-...d. Mobile Phone Number
-...e. Your Organization
-...f. Country/Region
-...g. Description Field 4. Check “Marketing offers and updates” checkbox 5. Hover over “Send Message” button, but do not click it
+   - First Name
+   - Last Name
+   - Your Business Email
+   - Mobile Phone Number
+   - Your Organization
+   - Country/Region
+   - Description Field
+
+4. Check “Marketing offers and updates” checkbox 5. Hover over “Send Message” button, but do not click it
