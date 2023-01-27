@@ -1,0 +1,24 @@
+{
+  "name": "mostly-ai-challenge",
+  "version": "1.0.0",
+  "description": "Automated tests for MOSTLY AI's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrec93/mostly-ai-challenge.git"
+  },
+  "keywords": [],
+  "author": "Emre Cakmak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emrec93/mostly-ai-challenge/issues"
+  },
+  "homepage": "https://github.com/emrec93/mostly-ai-challenge#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
