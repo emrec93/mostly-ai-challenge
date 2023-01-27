@@ -6,6 +6,5 @@ export const test = base.extend({
     const context = await browser.newContext(setAuthState());
     const page = await context.newPage();
     await use(page);
-    await page.goto("/");
   },
 });
