@@ -1,4 +1,3 @@
-// Home.ts
 import { Page } from "@playwright/test";
 
 export class HomePage {
@@ -19,6 +18,9 @@ export class HomePage {
       searchBtn: 'button[aria-label="Open search"]',
       input: "Search...",
     },
+    submenu: {
+      contactPage: "Contact Do you have a question about synthetic data? Send us a message!",
+    },
   };
 
   async goTo() {
@@ -29,7 +31,6 @@ export class HomePage {
   async verifyIfBookmarksAreVisible() {
     // Check visibility of all bookmarks
     for (const [key, value] of Object.entries(this.locators.navbar)) {
-      console.log(`\nLooking for ${key} bookmark\n`);
       (await this.page.waitForSelector(value)).isVisible();
     }
   }
@@ -48,6 +49,15 @@ export class HomePage {
     await this.page.keyboard.press("Enter");
 
     // Wait for navigation
-    await this.page.waitForURL(`https://mostly.ai/?s=${string}`);
+    await this.page.waitForURL(`/?s=${string}`);
+  }
+
+  async navigateToContactPage() {
+    // Hover over each of the navbar list elements, otherwise submenu does not render
+    for (const [key, value] of Object.entries(this.locators.navbar)) {
+      await this.page.locator(value).first().hover();
+    }
+
+    await this.page.getByRole("link", { name: this.locators.submenu.contactPage }).click();
   }
 }
