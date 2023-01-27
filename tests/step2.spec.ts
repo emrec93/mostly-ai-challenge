@@ -2,7 +2,7 @@ import { test } from "../fixture/test";
 import { HomePage } from "../pages/Home";
 import { SearchPage } from "../pages/Search";
 
-const searchTerm = "sythetic";
+const searchTerm = "sythetic"; // Wrong spelling of synthetic
 
 test(`Test 2: Search for incorrect term: "${searchTerm}"`, async ({ page }) => {
   const homePage = new HomePage(page);
