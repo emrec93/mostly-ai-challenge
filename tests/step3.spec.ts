@@ -9,5 +9,5 @@ test(`Test 3: Contact form`, async ({ page, browserName }) => {
   await homePage.goTo();
   await homePage.navigateToContactPage();
   await contactPage.enterFormDetails();
-  await contactPage.hoverOverSendMessageButton(browserName);
+  await contactPage.hoverOverSendMessageButton(browserName); // passing browser name for screenshot
 });
