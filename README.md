@@ -80,3 +80,9 @@ The tests cover the following 3 scenarios:
 ## CI/CD, Github Actions
 
 In the project folder within .github/workflows/ you'll find a playwright.yml file that runs the tests whenever a push or a pull request is made on the main and master branches. This can be configured further, but I've left it as it is for the purpose of this challenge.
+
+### Downloading Test Artifacts
+
+After the tests run in the workflow, you can download the test artifacts as a zip file "playwright-report.zip". This can be found in the repo under Actions -> Playwright Tests -> then in the workflow that was last completed (hopefully with a green tick!).
+
+Once downloaded and unzipped, the folder contains a "index.html" file which can be opened in any browser or with the LiveServer extension in VSCode. It can also be hosted as part of another job within Github using Github Pages, but that's beyond the scope of this challenge.
