@@ -59,6 +59,8 @@ export class HomePage {
     }
 
     // Click to navigate to the contact page
+    const navigationPromise = this.page.waitForURL("**/contact/");
     await this.page.getByRole("link", { name: this.locators.submenu.contactPage }).click();
+    await navigationPromise;
   }
 }
