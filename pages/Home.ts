@@ -15,13 +15,15 @@ export class HomePage {
       resources: 'li:has-text("Resources")',
       company: 'li:has-text("Company")',
     },
-    hamburgerMenuIcon: "#code_block-3032-16",
+
     search: {
       searchBtn: 'button[aria-label="Open search"]',
       input: "Search...",
     },
     submenu: {
       contactPage: "Contact Do you have a question about synthetic data? Send us a message!",
+      hamburgerMenuIcon: "#code_block-3032-16",
+      arrow: ".arrow-added",
     },
   };
 
@@ -36,7 +38,7 @@ export class HomePage {
   }
 
   async expandHamburgerMenu() {
-    await this.page.locator(this.locators.hamburgerMenuIcon).click();
+    await this.page.locator(this.locators.submenu.hamburgerMenuIcon).click();
   }
 
   async verifyIfBookmarksAreVisible() {
@@ -66,13 +68,18 @@ export class HomePage {
 
   async navigateToContactPage() {
     // Hover over each of the navbar list elements, otherwise submenu does not render
-    for (const [key, value] of Object.entries(this.locators.navbar)) {
-      await this.page.locator(value).first().hover();
+    const width = this.page.viewportSize()?.width as number;
+    if (width > 767) {
+      for (const [key, value] of Object.entries(this.locators.navbar)) {
+        await this.page.locator(value).first().hover();
+      }
     }
 
     // Click to navigate to the contact page
-    const navigationPromise = this.page.waitForURL("**/contact/");
     await this.page.getByRole("link", { name: this.locators.submenu.contactPage }).click();
-    await navigationPromise;
+  }
+
+  async expandSubmenu() {
+    await this.page.locator(this.locators.submenu.arrow).nth(3).click();
   }
 }

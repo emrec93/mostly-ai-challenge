@@ -93,13 +93,21 @@ export class ContactPage {
     // Capture send message button
     const btn = this.page.locator(this.locators.form.sendMsgBtn);
 
+    // Width of page
+    const width = this.page.viewportSize()?.width as number;
+
+    // Used for naming screenshots
+    const deviceType = () => {
+      return width > 767 ? "Desktop" : "Mobile";
+    };
+
     // Screenshot before hover
-    await btn.screenshot({ path: `./screenshots/btn-before-${browserName}.png` });
+    await btn.screenshot({ path: `./screenshots/btn-before-${browserName}-${deviceType()}.png` });
 
     // Hover over button
     await btn.hover();
 
     // Screenshot after hover
-    await btn.screenshot({ path: `./screenshots/btn-after-${browserName}.png` });
+    await btn.screenshot({ path: `./screenshots/btn-after-${browserName}-${deviceType()}.png` });
   }
 }
