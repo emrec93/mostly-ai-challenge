@@ -1,4 +1,5 @@
-import { Page } from "@playwright/test";
+import { expect, Page } from "@playwright/test";
+import { devices } from "@playwright/test";
 
 export class HomePage {
   readonly page: Page;
@@ -14,6 +15,7 @@ export class HomePage {
       resources: 'li:has-text("Resources")',
       company: 'li:has-text("Company")',
     },
+    hamburgerMenuIcon: "#code_block-3032-16",
     search: {
       searchBtn: 'button[aria-label="Open search"]',
       input: "Search...",
@@ -28,10 +30,20 @@ export class HomePage {
     await this.page.goto("/");
   }
 
+  async setViewportSize(viewport: { width: number; height: number }) {
+    // Set viewport to desired device
+    await this.page.setViewportSize(viewport);
+  }
+
+  async expandHamburgerMenu() {
+    await this.page.locator(this.locators.hamburgerMenuIcon).click();
+  }
+
   async verifyIfBookmarksAreVisible() {
     // Check visibility of all bookmarks
     for (const [key, value] of Object.entries(this.locators.navbar)) {
-      (await this.page.waitForSelector(value)).isVisible();
+      const bookmark = await this.page.waitForSelector(value);
+      expect(await bookmark.isVisible()).toBeTruthy();
     }
   }
 
