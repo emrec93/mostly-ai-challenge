@@ -39,15 +39,23 @@ npm run test
 
 ### Viewing latest test results
 
+To view the latest test execution's results in a locally served HTML page, run:
+
 ```
 npm run report
 ```
 
+Alternatively, you can also view a trace of the test execution if the test failed to get a snapshot of the DOM at the time of failure:
+
+```
+npm run trace
+```
+
 ### Other Browsers
 
-By default the project is set to run on a Chromium browser, but if you wish to run the tests on Chormium, Firefox, and Webkit then do the following.
+By default the project is set to run on a Chromium browser, but if you wish to run the tests on Chromium, Firefox, and/or Webkit then do the following.
 
-Navigate to the playwright.config.ts file in the project root and uncomment out the following under "projects" to run all tests on three browsers:
+Navigate to the playwright.config.ts file in the project root and uncomment the following under "projects" to run all tests on three browsers:
 
 ```js
     {
@@ -73,6 +81,8 @@ Navigate to the playwright.config.ts file in the project root and uncomment out 
 ```
 
 # Scenarios covered
+
+For Steps 1 and 3, the tests will emulate both a Desktop and Mobile viewport for coverage. Step 2 sticks to Desktop, since the "search" functionality does not seem to exist on the mobile version of the site (as far as I could see).
 
 The tests cover the following 3 scenarios:
 
