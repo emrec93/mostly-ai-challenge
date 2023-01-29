@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "trace": "npx playwright show-trace test-results/*/trace.zip"
   },
   "repository": {
     "type": "git",

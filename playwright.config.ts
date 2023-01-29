@@ -15,7 +15,7 @@ const config: PlaywrightTestConfig = {
   use: {
     actionTimeout: 0,
     baseURL: "https://mostly.ai/",
-    trace: "on-first-retry",
+    trace: "retain-on-failure",
   },
 
   projects: [
