@@ -6,5 +6,7 @@ export const test = base.extend({
     const context = await browser.newContext(setAuthState()); // So cookie banner doesn't come up during tests (accepted cookies)
     const page = await context.newPage();
     await use(page);
+    await page.close();
+    await context.close();
   },
 });
