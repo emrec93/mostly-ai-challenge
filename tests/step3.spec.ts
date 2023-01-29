@@ -16,15 +16,22 @@ deviceType.forEach((device) => {
     // Set viewport to device type viewport
     await homePage.setViewportSize(device.viewport);
 
+    // Go to home page
     await homePage.goTo();
 
+    // If device has viewport width of mobile
     if (device.isMobile) {
       homePage.expandHamburgerMenu();
       homePage.expandSubmenu();
     }
 
+    // Go to contact page
     await homePage.navigateToContactPage();
+
+    // Enter form details
     await contactPage.enterFormDetails();
+
+    // Hover over send message button
     await contactPage.hoverOverSendMessageButton(browserName); // passing browser name for screenshot
   });
 });
