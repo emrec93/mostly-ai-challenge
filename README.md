@@ -45,7 +45,7 @@ To view the latest test execution's results in a locally served HTML page, run:
 npm run report
 ```
 
-Alternatively, you can also view a trace of the test execution if the test failed to get a snapshot of the DOM at the time of failure:
+Alternatively, you can also view a trace of the test execution, IF THE TEST FAILED, to get a snapshot of the DOM at the time of failure:
 
 ```
 npm run trace
